@@ -1,0 +1,44 @@
+.section {
+  background-color: var(--primary-color-3);
+}
+
+.section-container {
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+}
+
+.section-text {
+  color: var(--grey-light3);
+  align-content: center;
+  padding: 15rem 0rem;
+}
+
+.section-admin {
+  color: rgb(124, 124, 124);
+  margin-left: 20px;
+}
+
+.section-img {
+  background-image: url(../images/hero2.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.section-title {
+  color: var(--white);
+  font-size: 5rem;
+  text-decoration: underline;
+}
+
+.section-sub-title {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 798px) {
+  .section-container {
+    display: block;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+  }
+}

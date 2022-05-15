@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #f85510;
+  --primary-color-2: #2F2F30;
+  --primary-color-3: #161616;
+  --second-color: #000;
+  --grey-light1: #f2f6f6;
+  --grey-light2: #eaefee;
+  --grey-light3: #D0CED3;
+  --tag-color: #f3f2f3
+  --text-color: #747574;
+  --white-color: #fff;
+
+  --card-border-radius: 0.8rem;
+}

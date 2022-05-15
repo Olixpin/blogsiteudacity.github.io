@@ -1,0 +1,50 @@
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10rem;
+  border: 1px solid var(--primary-color-2);
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.button a {
+  color: #000;
+  transition: all 0.5s;
+}
+
+.button:hover a {
+  color: var(--white-color);
+}
+
+.button:hover {
+  background-color: #000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+  transform: scale(0.98);
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.button-white {
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 10rem;
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.button-white a {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.button-white:hover a {
+  color: var(--primary-color-2);
+}
+
+.button-white:hover {
+  background-color: var(--white-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
